@@ -1,10 +1,9 @@
-package perds;
-
-import perds.simulation.SimulationEngine;
+import graph.Graph;
 
 public class Main {
     public static void main(String[] args) {
-        SimulationEngine engine = new SimulationEngine();
-        engine.run();
-    }
+        Graph graph = new Graph();
+        System.out.println("starting...");
+    
+}
 }
