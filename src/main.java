@@ -1,9 +1,10 @@
 import graph.Graph;
+import simulation.SimulationEngine;
 
 public class Main {
 
     public static void main(String[] args) {
-        Graph graph = new Graph();
-        System.out.println("starting3...");
+        SimulationEngine engine = new SimulationEngine();
+        engine.run();
     }
 }
