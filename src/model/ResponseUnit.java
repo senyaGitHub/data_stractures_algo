@@ -3,6 +3,7 @@ package model;
 import graph.Node;
 
 public class ResponseUnit {
+
     private final String id;
     private final String type;
     private Node location;
@@ -12,6 +13,10 @@ public class ResponseUnit {
         this.id = id;
         this.type = type;
         this.location = location;
+    }
+
+    public String getId() {
+        return id;
     }
 
     public boolean isAvailable() {
